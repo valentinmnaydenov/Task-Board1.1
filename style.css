@@ -1,0 +1,93 @@
+.navbar {
+  background-color: #7749f8;
+}
+h1 {
+  margin-left: 1rem;
+}
+.task {
+  display: flex;
+  flex-direction: column;
+}
+
+.done > div > div {
+  background: #28a745;
+}
+.done {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  height: 100%;
+}
+.selected {
+  background: #7749f8;
+}
+.main {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/*
+.main > div {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 10px;
+}
+*/
+.todo {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  height: 100%;
+}
+.frogress {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.moveButton {
+  height: 2rem;
+  margin-top: 17rem;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.whiteText {
+  color: #ffffff;
+  font-family: 'Inter';
+  font-style: normal;
+}
+.createButton {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 16px;
+
+  width: 80px;
+  height: 39px;
+
+  /* Primary/Color */
+
+  background: #7749f8;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.taskBox {
+  margin-bottom: 0.5rem;
+  border-style: solid;
+  border-width: thin;
+  width: 15rem;
+  border-radius: 5px;
+}
+
+.task.selected {
+  background-color: #7749f8;
+}
